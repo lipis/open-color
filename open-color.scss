@@ -5,13 +5,11 @@
 //
 //  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-
 //  General
 //  ───────────────────────────────────
 
-$oc-white:         #ffffff;
-$oc-black:         #000000;
-
+$oc-white: #ffffff;
+$oc-black: #000000;
 
 //  Gray
 //  ───────────────────────────────────
@@ -40,7 +38,6 @@ $oc-gray-7: map-get($oc-gray-list, "7");
 $oc-gray-8: map-get($oc-gray-list, "8");
 $oc-gray-9: map-get($oc-gray-list, "9");
 
-
 //  Red
 //  ───────────────────────────────────
 
@@ -67,7 +64,6 @@ $oc-red-6: map-get($oc-red-list, "6");
 $oc-red-7: map-get($oc-red-list, "7");
 $oc-red-8: map-get($oc-red-list, "8");
 $oc-red-9: map-get($oc-red-list, "9");
-
 
 //  Pink
 //  ───────────────────────────────────
@@ -96,7 +92,6 @@ $oc-pink-7: map-get($oc-pink-list, "7");
 $oc-pink-8: map-get($oc-pink-list, "8");
 $oc-pink-9: map-get($oc-pink-list, "9");
 
-
 //  Grape
 //  ───────────────────────────────────
 
@@ -123,7 +118,6 @@ $oc-grape-6: map-get($oc-grape-list, "6");
 $oc-grape-7: map-get($oc-grape-list, "7");
 $oc-grape-8: map-get($oc-grape-list, "8");
 $oc-grape-9: map-get($oc-grape-list, "9");
-
 
 //  Violet
 //  ───────────────────────────────────
@@ -152,7 +146,6 @@ $oc-violet-7: map-get($oc-violet-list, "7");
 $oc-violet-8: map-get($oc-violet-list, "8");
 $oc-violet-9: map-get($oc-violet-list, "9");
 
-
 //  Indigo
 //  ───────────────────────────────────
 
@@ -179,7 +172,6 @@ $oc-indigo-6: map-get($oc-indigo-list, "6");
 $oc-indigo-7: map-get($oc-indigo-list, "7");
 $oc-indigo-8: map-get($oc-indigo-list, "8");
 $oc-indigo-9: map-get($oc-indigo-list, "9");
-
 
 //  Blue
 //  ───────────────────────────────────
@@ -208,7 +200,6 @@ $oc-blue-7: map-get($oc-blue-list, "7");
 $oc-blue-8: map-get($oc-blue-list, "8");
 $oc-blue-9: map-get($oc-blue-list, "9");
 
-
 //  Cyan
 //  ───────────────────────────────────
 
@@ -235,7 +226,6 @@ $oc-cyan-6: map-get($oc-cyan-list, "6");
 $oc-cyan-7: map-get($oc-cyan-list, "7");
 $oc-cyan-8: map-get($oc-cyan-list, "8");
 $oc-cyan-9: map-get($oc-cyan-list, "9");
-
 
 //  Teal
 //  ───────────────────────────────────
@@ -264,7 +254,6 @@ $oc-teal-7: map-get($oc-teal-list, "7");
 $oc-teal-8: map-get($oc-teal-list, "8");
 $oc-teal-9: map-get($oc-teal-list, "9");
 
-
 //  Green
 //  ───────────────────────────────────
 
@@ -291,7 +280,6 @@ $oc-green-6: map-get($oc-green-list, "6");
 $oc-green-7: map-get($oc-green-list, "7");
 $oc-green-8: map-get($oc-green-list, "8");
 $oc-green-9: map-get($oc-green-list, "9");
-
 
 //  Lime
 //  ───────────────────────────────────
@@ -320,7 +308,6 @@ $oc-lime-7: map-get($oc-lime-list, "7");
 $oc-lime-8: map-get($oc-lime-list, "8");
 $oc-lime-9: map-get($oc-lime-list, "9");
 
-
 //  Yellow
 //  ───────────────────────────────────
 
@@ -347,7 +334,6 @@ $oc-yellow-6: map-get($oc-yellow-list, "6");
 $oc-yellow-7: map-get($oc-yellow-list, "7");
 $oc-yellow-8: map-get($oc-yellow-list, "8");
 $oc-yellow-9: map-get($oc-yellow-list, "9");
-
 
 //  Orange
 //  ───────────────────────────────────
@@ -376,24 +362,23 @@ $oc-orange-7: map-get($oc-orange-list, "7");
 $oc-orange-8: map-get($oc-orange-list, "8");
 $oc-orange-9: map-get($oc-orange-list, "9");
 
-
 //  Color list
 //  ───────────────────────────────────
 
-$oc-color-spectrum:   9;
+$oc-color-spectrum: 9;
 
 $oc-color-list: (
-  $oc-gray-list:      "gray",
-  $oc-red-list:      "red",
-  $oc-pink-list:      "pink",
-  $oc-grape-list:      "grape",
-  $oc-violet-list:      "violet",
-  $oc-indigo-list:      "indigo",
-  $oc-blue-list:      "blue",
-  $oc-cyan-list:      "cyan",
-  $oc-teal-list:      "teal",
-  $oc-green-list:      "green",
-  $oc-lime-list:      "lime",
-  $oc-yellow-list:      "yellow",
-  $oc-orange-list:      "orange"
+  $oc-gray-list: "gray",
+  $oc-red-list: "red",
+  $oc-pink-list: "pink",
+  $oc-grape-list: "grape",
+  $oc-violet-list: "violet",
+  $oc-indigo-list: "indigo",
+  $oc-blue-list: "blue",
+  $oc-cyan-list: "cyan",
+  $oc-teal-list: "teal",
+  $oc-green-list: "green",
+  $oc-lime-list: "lime",
+  $oc-yellow-list: "yellow",
+  $oc-orange-list: "orange"
 );

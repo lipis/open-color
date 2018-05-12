@@ -4,10 +4,10 @@ Open color is an [open-source](https://en.wikipedia.org/wiki/Open-source_softwar
 
 ## Goals
 
-- All colors shall have adequate use
-- Provide general color for UI design
-- All colors will be beautiful in itself and harmonious
-- At the same brightness level, the perceived brightness will be constant
+* All colors shall have adequate use
+* Provide general color for UI design
+* All colors will be beautiful in itself and harmonious
+* At the same brightness level, the perceived brightness will be constant
 
 **Note**
 
@@ -22,6 +22,7 @@ Open color is an [open-source](https://en.wikipedia.org/wiki/Open-source_softwar
 ```
 $ npm install open-color
 ```
+
 ```
 $ bower install open-color
 ```
@@ -41,7 +42,7 @@ $oc-(color)-(number)
 ### LESS
 
 ```less
-@oc-(color)-(number)
+@oc- (color)-(number);
 ```
 
 ### Stylus
@@ -49,6 +50,7 @@ $oc-(color)-(number)
 ```styl
 oc-(color)-(number)
 ```
+
 ### CSS
 
 ```css
@@ -57,9 +59,9 @@ oc-(color)-(number)
 
 ---
 
-- `oc`:  Abbreviation for Open color
-- `(color)`: Color name such as gray, red, lime, etc.
-- `(number)`: 0 to 9. Brightness spectrum.
+* `oc`: Abbreviation for Open color
+* `(color)`: Color name such as gray, red, lime, etc.
+* `(number)`: 0 to 9. Brightness spectrum.
 
 ## How to Use
 
@@ -89,7 +91,7 @@ a {
 **Example for LESS**
 
 ```less
-@import 'path/open-color';
+@import "path/open-color";
 
 .body {
   background-color: @oc-gray-0;
@@ -128,7 +130,7 @@ a
 **Example for CSS**
 
 ```css
-@import 'path/open-color.css';
+@import "path/open-color.css";
 
 .body {
   background-color: var(--oc-gray-0);
@@ -152,23 +154,23 @@ Check out the list below.
 
 ### Color Value
 
-- `open-color.json` 
-   - Change and `$ npm run compile-templates`
-- `docs/asset/download/open-color_*.*.*.aco`
-- `docs/asset/download/open-color_*.*.*.clr`
-- Adobe library (admin rights)
+* `open-color.json`
+  * Change and `$ npm run compile-templates`
+* `docs/asset/download/open-color_*.*.*.aco`
+* `docs/asset/download/open-color_*.*.*.clr`
+* Adobe library (admin rights)
 
 ### Version Number
 
-- `package.json`
-- `docs/asset/download/open-color_*.*.*.aco`
-- Adobe library (admin rights)
+* `package.json`
+* `docs/asset/download/open-color_*.*.*.aco`
+* Adobe library (admin rights)
 
 ### Document
 
-- `README.md`
-- `docs/documents.html`
+* `README.md`
+* `docs/documents.html`
 
 ### Introduction
 
-- `README.md`
+* `README.md`
